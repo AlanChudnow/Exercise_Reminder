@@ -178,6 +178,14 @@ input[type="number"]:focus { outline:2px solid var(--accent); outline-offset:2px
   border-radius:7px; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:1rem; padding:6px 10px;
 }
 
+.help-section { margin-bottom:18px; }
+.help-heading {
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:1rem; font-weight:700; text-transform:uppercase;
+  letter-spacing:.06em; color:var(--accent); margin-bottom:6px;
+}
+.help-section p { font-size:.85rem; color:var(--text); line-height:1.6; }
+
 @media(max-width:520px){
   .exercise-grid { grid-template-columns:repeat(2,1fr); }
   .countdown { font-size:3.2rem; }
@@ -223,6 +231,7 @@ input[type="number"]:focus { outline:2px solid var(--accent); outline-offset:2px
   <div class="footer-row">
     <span id="logCount">Log: 0 entries</span>
     <div style="display:flex;gap:6px;flex-wrap:wrap">
+      <button class="btn btn-ghost"     style="font-size:.76rem;padding:5px 11px" onclick="toggleHelp()">Help</button>
       <button class="btn btn-ghost"     style="font-size:.76rem;padding:5px 11px" onclick="toggleLogPanel()">Display Log</button>
       <button class="btn btn-ghost"     style="font-size:.76rem;padding:5px 11px" onclick="exportLog()">Export Log</button>
       <button class="btn btn-red-ghost" style="font-size:.76rem;padding:5px 11px" onclick="clearLog()">Clear Log</button>
@@ -282,6 +291,69 @@ input[type="number"]:focus { outline:2px solid var(--accent); outline-offset:2px
   </div>
 </div>
 
+
+<!-- ═══ HELP MODAL ═══ -->
+<div class="overlay" id="helpOverlay">
+  <div class="modal" style="max-width:560px">
+    <button class="modal-close" onclick="toggleHelp()">✕</button>
+    <div class="modal-title" style="font-size:1.4rem">How to Use</div>
+
+    <div class="help-section">
+      <div class="help-heading">⏱ Timer</div>
+      <p>The countdown starts automatically when the page loads. When it reaches zero, an exercise reminder pops up with a sound alert. After each session the timer resets automatically.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">⚙️ Interval</div>
+      <p>Type a new number (1–120 minutes) in the interval box and click <strong>Update</strong> to change how often reminders fire. The countdown resets to the new interval immediately.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">💪 Exercise Now</div>
+      <p>Click <strong>Exercise Now</strong> to trigger the reminder in about 1 second, without waiting for the full interval.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">📋 Exercise Window</div>
+      <p>When the reminder fires, a shuffled grid of exercises appears. Each exercise button is colour-coded by how many times you've clicked it this session (white → yellow → green → blue → orange → pink).</p>
+      <p style="margin-top:8px">Exercises marked <strong>▶</strong> open a short YouTube demo video in a new tab when clicked. Clicking any exercise also logs it automatically.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">✅ Snooze / Done / Dismiss</div>
+      <p><strong>Snooze</strong> — closes the window and sets a 5-minute reminder.<br>
+         <strong>Done</strong> — logs the session as complete, increments your exercise count, and restarts the full interval.<br>
+         <strong>✕ (dismiss)</strong> — closes the window and restarts the full interval without logging.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">⏲ Pomodoro</div>
+      <p>Opens a focused countdown timer (default 5 minutes). Enter any duration as minutes (e.g. <em>3</em>) or mm:ss (e.g. <em>2:30</em>). Click <strong>Reset Timer</strong> to restart it. It plays a chime and closes automatically when done.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">🕐 Stopwatch</div>
+      <p>Use the Start / Stop / Reset buttons to time your exercise. Type a note in the Comment field and click <strong>Add to Log</strong> (or press Enter) to save it to the log with a timestamp.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">📊 Log</div>
+      <p><strong>Display Log</strong> — shows all entries, most recent first.<br>
+         <strong>Export Log</strong> — downloads the full log as a <em>.txt</em> file. Paste it into an AI (like Claude) for coaching and analysis.<br>
+         <strong>Clear Log</strong> — permanently deletes all log data.</p>
+      <p style="margin-top:8px">The log is stored in your browser's local storage and persists between sessions. It is not uploaded anywhere.</p>
+    </div>
+
+    <div class="help-section">
+      <div class="help-heading">🔔 Notifications</div>
+      <p>Click <strong>Enable</strong> on the yellow bar to allow browser notifications. This lets you receive alerts even when the tab is in the background or minimised.</p>
+    </div>
+
+    <div style="text-align:center;margin-top:20px">
+      <button class="btn btn-green" onclick="toggleHelp()">Got it</button>
+    </div>
+  </div>
+</div>
 
 <script>
 // ── Exercises ────────────────────────────────────────────
@@ -344,6 +416,10 @@ function logLines() { return getLogText().split('\n').filter(l => l.trim()); }
 
 function updateLogCount() {
   document.getElementById('logCount').textContent = `Log: ${logLines().length} entries`;
+}
+
+function toggleHelp() {
+  document.getElementById('helpOverlay').classList.toggle('show');
 }
 
 function toggleLogPanel() {
