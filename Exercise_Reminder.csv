@@ -14,6 +14,7 @@ Chair Pose,strength;stability;fullday,
 Deadbug,stability;fullday,
 Doorway Peck Strep,mobility;shoulder;fullday,
 Glute Bridge,stability;strength;fullday,
+Haolos,shoulder;fullday,
 Hamstring Nerve Glide,mobility;fullday,
 Hip Airplane,stability;fullday,
 High Leg Lifts Statue Liberty,stability;cardio;fullday,
@@ -22,7 +23,9 @@ Lunge,strength;fullday,
 Open Book,mobility;fullday,
 Pallof Press,stability;fullday,
 Plank,stability;fullday,
+Pushups,strength;fullday,
 RDL,strength;fullday,
+1 Leg RDL,strength;fullday,
 Row TRX,strength;fullday,
 Rows,strength;fullday,
 Squats,strength;fullday,
@@ -42,87 +45,101 @@ Burst Line Hops,cardio,
 Burst High Steps,cardio,
 Burst + Burst + Burst,cardio,
 Pully Engine Routine,strength,
-Balance Poses,stability;coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Balance_Poses_damon_reio.mp4
-Dead Hang++,grip,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\DeadHang+Others.mp4
-Dragon Walk,mobility;coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dragon_Walk+drjjphysicaltherapist.mp4
-Foot Massage,foot;recovery,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Foot_Massage_Exer.mp4
-Glute Wall Moves,stability,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Wall_Sex happiestsadist.mp4
-Knees 2 Stand Jump,strength;cardio,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Knees_2_Feet_Jump.mp4
-Lat Raise 180deg,shoulder,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Lat_Raises_Above_Head_takumi_systems.mp4
-Plank Band Moves,stability,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Band Plank Leg Lifts.mp4
-Plank Dance Basic,stability;coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Plank_Deance_Basic_Basic.mp4
-Plyo In Middle,cardio,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Plyo_In-The_Middle_coachjohnnoel.mp4
-RDL But Flashlight,strength,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\RDL_Tip_Flashlight_in_Butt_rarebreedcfathletics.mp4
-RDL But with Twist,strength;mobility,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\RDL+Twist_takumi_systems.mp4
-Squat+DB+Overhead,strength,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Squat+Overhead_DB+Others marielaxfit.mp4
-Wall Bear Plank,stability,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Wall_Bear_Plank_miki_jams_with_kittens.mp4
-Warm Ups,mobility;recovery,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Warm_ups_your_middle_aged_body_needs.mp4
-Wrist Rolls,mobility;grip,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Wrist_Roll_Towell_2026-05-18_00-11-32_UTC PBH.mp4
-Try A Challenge,cardio,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Fit_Challenges_ theprehabguys.mp4
-Brain 00 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTain_00_FingerGame.mp4
-Brain 01 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_01_FingerGame.mp4
-Brain 02 HandRotate,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_02_Rotate_Speed.mp4
-Brain 02 Memory,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_03_MemoryGame.mp4
-Brain 04 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_04_FingerGames.mp4
-Brain 03 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_05_FingerGames.mp4
-Brain 04 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Brain_TwoHand_FingerGame_thenaturalnur5e.mp4
-Dance Shuffle Saw,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Shuffle_For_Beginners.mp4
-Dance Salsa (Tutorial),coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Salsa_Tutorial.mp4
-Dance Air Step,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Air_Step.mp4
-Dance Afro Rhythm,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_AfroRythm_TrainC_MAW.mp4
-Dance Five Dances,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Bachata+Waltz+Salsa+Tango_ andrew.ikim.mp4
-Dance RockNRollKick,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_RockNRoll_andrewKim.mp4
-Dance Salsa (AndrewKim),coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Salsa_AndrewKim.mp4
-Dance Shuffle Float,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Shuffle_Floating_Step_taichibreath.mp4
-Dance Upper Body,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_UpperBodyDrills.mp4
-Dance Waltz,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Waltz_AndrewKim.mp4
-K-00 120sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-00.mp4
-K-01 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-01femalephysiosarah.mp4
-K-02 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-02-femalephysiosarah.mp4
-K-03 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-03_femalephysiosarah.mp4
-K-04 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-04_femalephysiosarah.mp4
-K-05 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-05_femalephysiosarah.mp4
-K-06 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-06_femalephysiosarah.mp4
-K-07 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-07_femalephysiosarah.mp4
-K-08 90sec,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-08_femalephysiosarah.mp4
-K-AA More Pelvic,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K-AA_Part3.mp4
-K-BB More Pelvic,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\K_xx_More Pelvic_Floors_emilykchen.mp4
-Balance Poses,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Balance_Poses_damon_reio.mp4
-Balance Skills,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Balance_Skills.mp4
-Brain Train Day 2 Climbing,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day02_ClimbingFigures
-Brain Train Day 3 Hands,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_day03_FlipHands
-Brain Train Day 4 Swap,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day04_SwapFigures.mp4
-Brain Train Day 5 Finger,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day05-Finger_Swap.mp4
-Brain Train Day 6 Seppl,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day06_Spell+Juggle.mp4
-Brain Train Day7Flop,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day07_12_21_FingerFlop.mp4
-Brain Train Day 8 Eye Pushup,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day08_EyePushups.mp4
-Brain Train Day 9 Circle,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day09_Circles.mp4
-Brain Train Day 10 Flop,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\BrainTrain_Day10_FlopHands.mp4
-Calf Raise Variation,foot;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Calf_Raise_Variations_Su00f3 Partideiros.mp4
-Dance Footwork,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Foundataion_Footwork_alyssachaneldance.mp4
-Dance Head Moves,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_HeadMoves_jwang.dance.mp4
-Dance Charleston,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Shuffle_Charleston_isi.shuffles.mp4
-Dance Shuffle One,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Shuffle_One_Leg.mp4
-Dance Moon Walk,coordination,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Dance_Skills_Moon_Walk.mp4
-Famers Carry Alt,fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Farmers_Carry_Alternatives_shweshetty.mp4
-Glute Bridge Balance,stability;strength;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\GluteBridge_BalanceBall_happiestsadist.mp4
-Knee Wall,stability;strength;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Knee_Wall_Exercises_liftwithkartiki.mp4
-Pushup and Kick,stability;strength;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Pushup_to_Kick_hiitthebeat.mp4
-Stretch Lower Back,stability;strength;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\Stretch_Lower_Back_heydrrob.mp4
-Wrist Rolls,stability;strength;fullday,C:\Users\Daddy\Apps\Exercise_Reminder\Exercises\'Wrist_Roll_Towell.mp4
-Dance 4-Step Triangle,coordination,Dance 4-Step-Triangle 2026-06-11_01-35-58_UTC.mp4
-Dance 6 Step Side to Side,coordination,Dance_Lessons_Easy_Dance+Hips+Arms.mp4
-Dance Suffle Plyo,coordination,Dance_Lessons_Rhythm_training.mp4
-Dance Triangle 3 beat,coordination,Dance_ThreeCircles.mp4
-Dance Bacchata 4 circle,coordination,Dance-Lessons-Bachata-Steps.mp4
-Dance Bangha 8 beat,coordination,Dance-lessons-Bhangra.mp4
-Dance Salsa  3 steps 4 ways,coordination,Dance-Lessons-Salsa-andrew.ikim.mp4
-Dance Tango,coordination,Dance-Tango-andrew.ikim.mp4
-Dance Shuffle ZigZag,coordination,Dance-Shuffle-Zig-Zag-aleksdancefitness.mp4
-Dance Footwork Ankle Flick,coordination,Dance-Footwork-AnkleFlick.mp4
-Dance Around World,coordination,Dance-Around-World-ed.people.mp4
-Calf Raise on Blocks,foot;fullday,Fit-Calf-Raise-Yoga-Blocks-schutza.pt.mp4
-Broom Lift on Stomach,foot;fullday,Fit-BroomLifts_drrodpt.mp4
-Squat Surrendors,foot;fullday,Fit-Squat-moves-happiestsadist.mp4
-Squat Pistol TRX,foot;fullday,Fit-TRX-PistolSquatStarting_catherinesargentcoaching.mp4
-Rhythm-Beat-01,coordination,Rhythms_robertadimaio_rhythm.mp4
+Balance Poses,stability;coordination,Exercises\Balance_Poses_damon_reio.mp4
+Dead Hang++,grip,Exercises\DeadHang+Others.mp4
+Dragon Walk,mobility;coordination,Exercises\Dragon_Walk+drjjphysicaltherapist.mp4
+Foot Massage,foot;recovery,Exercises\Foot_Massage_Exer.mp4
+Glute Wall Moves,stability,Exercises\Wall_Sex happiestsadist.mp4
+Knees 2 Stand Jump,strength;cardio,Exercises\Knees_2_Feet_Jump.mp4
+Lat Raise 180deg,shoulder,Exercises\Lat_Raises_Above_Head_takumi_systems.mp4
+Plank Band Moves,stability,Exercises\Band Plank Leg Lifts.mp4
+Plank Dance Basic,stability;coordination,Exercises\Plank_Deance_Basic_Basic.mp4
+Plyo In Middle,cardio,Exercises\Plyo_In-The_Middle_coachjohnnoel.mp4
+RDL But Flashlight,strength,Exercises\RDL_Tip_Flashlight_in_Butt_rarebreedcfathletics.mp4
+RDL But with Twist,strength;mobility,Exercises\RDL+Twist_takumi_systems.mp4
+Squat+DB+Overhead,strength,Exercises\Squat+Overhead_DB+Others marielaxfit.mp4
+Wall Bear Plank,stability,Exercises\Wall_Bear_Plank_miki_jams_with_kittens.mp4
+Warm Ups,mobility;recovery,Exercises\Warm_ups_your_middle_aged_body_needs.mp4
+Wrist Rolls,mobility;grip,Exercises\Wrist_Roll_Towell_2026-05-18_00-11-32_UTC PBH.mp4
+Try A Challenge,cardio,Exercises\Fit_Challenges_ theprehabguys.mp4
+Brain 00 Finger,coordination,Exercises\BrainTain_00_FingerGame.mp4
+Brain 01 Finger,coordination,Exercises\BrainTrain_01_FingerGame.mp4
+Brain 02 HandRotate,coordination,Exercises\BrainTrain_02_Rotate_Speed.mp4
+Brain 02 Memory,coordination,Exercises\BrainTrain_03_MemoryGame.mp4
+Brain 04 Finger,coordination,Exercises\BrainTrain_04_FingerGames.mp4
+Brain 03 Finger,coordination,Exercises\BrainTrain_05_FingerGames.mp4
+Brain 04 Finger,coordination,Exercises\Brain_TwoHand_FingerGame_thenaturalnur5e.mp4
+Dance Shuffle Saw,coordination,Exercises\Dance_Shuffle_For_Beginners.mp4
+Dance Salsa (Tutorial),coordination,Exercises\Dance_Salsa_Tutorial.mp4
+Dance Air Step,coordination,Exercises\Dance_Air_Step.mp4
+Dance Afro Rhythm,coordination,Exercises\Dance_AfroRythm_TrainC_MAW.mp4
+Dance Five Dances,coordination,Exercises\Dance_Bachata+Waltz+Salsa+Tango_ andrew.ikim.mp4
+Dance RockNRollKick,coordination,Exercises\Dance_RockNRoll_andrewKim.mp4
+Dance Salsa (AndrewKim),coordination,Exercises\Dance_Salsa_AndrewKim.mp4
+Dance Shuffle Float,coordination,Exercises\Dance_Shuffle_Floating_Step_taichibreath.mp4
+Dance Upper Body,coordination,Exercises\Dance_UpperBodyDrills.mp4
+Dance Waltz,coordination,Exercises\Dance_Waltz_AndrewKim.mp4
+K-00 120sec,coordination,Exercises\K-00.mp4
+K-01 90sec,coordination,Exercises\K-01femalephysiosarah.mp4
+K-02 90sec,coordination,Exercises\K-02-femalephysiosarah.mp4
+K-03 90sec,coordination,Exercises\K-03_femalephysiosarah.mp4
+K-04 90sec,coordination,Exercises\K-04_femalephysiosarah.mp4
+K-05 90sec,coordination,Exercises\K-05_femalephysiosarah.mp4
+K-06 90sec,coordination,Exercises\K-06_femalephysiosarah.mp4
+K-07 90sec,coordination,Exercises\K-07_femalephysiosarah.mp4
+K-08 90sec,coordination,Exercises\K-08_femalephysiosarah.mp4
+K-AA More Pelvic,coordination,Exercises\K-AA_Part3.mp4
+K-BB More Pelvic,coordination,Exercises\K_xx_More Pelvic_Floors_emilykchen.mp4
+Balance Poses,coordination,Exercises\Balance_Poses_damon_reio.mp4
+Balance Skills,coordination,Exercises\Balance_Skills.mp4
+Brain Train Day 2 Climbing,coordination,Exercises\BrainTrain_Day02_ClimbingFigures.mp4
+Brain Train Day 3 Hands,coordination,Exercises\BrainTrain_day03_FlipHands.mp4
+Brain Train Day 4 Swap,coordination,Exercises\BrainTrain_Day04_SwapFigures.mp4
+Brain Train Day 5 Finger,coordination,Exercises\BrainTrain_Day05-Finger_Swap.mp4
+Brain Train Day 6 Seppl,coordination,Exercises\BrainTrain_Day06_Spell+Juggle.mp4
+Brain Train Day7Flop,coordination,Exercises\BrainTrain_Day07_12_21_FingerFlop.mp4
+Brain Train Day 8 Eye Pushup,coordination,Exercises\BrainTrain_Day08_EyePushups.mp4
+Brain Train Day 9 Circle,coordination,Exercises\BrainTrain_Day09_Circles.mp4
+Brain Train Day 10 Flop,coordination,Exercises\BrainTrain_Day10_FlopHands.mp4
+Calf Raise Variation,foot;fullday,Exercises\Calf_Raise_Variations_Su00f3 Partideiros.mp4
+Dance Footwork,coordination,Exercises\Dance_Foundataion_Footwork_alyssachaneldance.mp4
+Dance Head Moves,coordination,Exercises\Dance_HeadMoves_jwang.dance.mp4
+Dance Charleston,coordination,Exercises\Dance_Shuffle_Charleston_isi.shuffles.mp4
+Dance Shuffle One,coordination,Exercises\Dance_Shuffle_One_Leg.mp4
+Dance Moon Walk,coordination,Exercises\Dance_Skills_Moon_Walk.mp4
+Famers Carry Alt,fullday,Exercises\Farmers_Carry_Alternatives_shweshetty.mp4
+Glute Bridge Balance,stability;strength;fullday,Exercises\GluteBridge_BalanceBall_happiestsadist.mp4
+Knee Wall,stability;strength;fullday,Exercises\Knee_Wall_Exercises_liftwithkartiki.mp4
+Pushup and Kick,stability;strength;fullday,Exercises\Pushup_to_Kick_hiitthebeat.mp4
+Stretch Lower Back,stability;strength;fullday,Exercises\Stretch_Lower_Back_heydrrob.mp4
+Wrist Rolls,stability;strength;fullday,Exercises\Wrist_Roll_Towell.mp4
+Dance 4-Step Triangle,coordination,Exercises\Dance 4-Step-Triangle 2026-06-11_01-35-58_UTC.mp4
+Dance 6 Step Side to Side,coordination,Exercises\Dance_Lessons_Easy_Dance+Hips+Arms.mp4
+Dance Suffle Plyo,coordination,Exercises\Dance_Lessons_Rhythm_training.mp4
+Dance Triangle 3 beat,coordination,Exercises\Dance_ThreeCircles.mp4
+Dance Bacchata 4 circle,coordination,Exercises\Dance-Lessons-Bachata-Steps.mp4
+Dance Bangha 8 beat,coordination,Exercises\Dance-lessons-Bhangra.mp4
+Dance Salsa  3 steps 4 ways,coordination,Exercises\Dance-Lessons-Salsa-andrew.ikim.mp4
+Dance Tango,coordination,Exercises\Dance-Tango-andrew.ikim.mp4
+Dance Shuffle ZigZag,coordination,Exercises\Dance-Shuffle-Zig-Zag-aleksdancefitness.mp4
+Dance Footwork Ankle Flick,coordination,Exercises\Dance-Footwork-AnkleFlick.mp4
+Dance Around World,coordination,Exercises\Dance-Around-World-ed.people.mp4
+Calf Raise on Blocks,foot;fullday,Exercises\Fit-Calf-Raise-Yoga-Blocks-schutza.pt.mp4
+Broom Lift on Stomach,foot;fullday,Exercises\Fit-BroomLifts_drrodpt.mp4
+Squat Surrendors,foot;fullday,Exercises\Fit-Squat-moves-happiestsadist.mp4
+Squat Pistol TRX,foot;fullday,Exercises\Fit-TRX-PistolSquatStarting_catherinesargentcoaching.mp4
+Rhythm-Beat-01,coordination,Exercises\Rhythms_robertadimaio_rhythm.mp4
+Brain Challenge Horns Swap,coordination,Exercises\Brain_Challenge_01_Horns_Finger_Swap.mp4
+Brain Train Juggle,coordination,Exercises\Brain_Train_Juggle Cercato.mp4
+Dance Necronomicon V1,coordination,Exercises\Dance-Do-The-Necronomicon-V1.mp4
+Dance Necronomicon V2,coordination,Exercises\Dance-Do-The-Necronomicon-V2.mp4
+Dance Necronomicon V3,coordination,Exercises\Dance-Do-The-Necronomicon-V3.mp4
+Dance Mambo,coordination,Exercises\Dance-lessons-Mambo-1.mp4
+Dance Bounce and Kick,coordination,Exercises\Dance_Easy_Bounce_and_Kick.mp4
+Dance Cross and Back,coordination,Exercises\Dance_Easy_Cross_And_Back.mp4
+Dance Slide Bounce Shuffle,coordination,Exercises\Dance_Slide_and_Bounce_Shuffle.mp4
+Kettlebell Tension Hold,strength;grip,Exercises\Fit-Maintain-Tension-With-Kettle.mp4
+Stretch Combo,mobility;recovery,Exercises\Fit_Stretch_Combo.mp4
+Glute Donkey Kick,strength;stability,Exercises\Glute_CO_Donkey_Kick.mp4
+Copenhagen Plank,stability;strength,Exercises\Plank-Copenhagen.mp4
+Towel Roll Up,mobility;grip,Exercises\Towell_Roll__Up.mp4
