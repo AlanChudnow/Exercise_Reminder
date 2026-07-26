@@ -35,6 +35,8 @@ CATEGORIES = {
     "recovery":     ("🟡 Recovery / Circulation",   "#FFF9C4"),   # light yellow
     "grip":         ("🟤 Grip / Carry",             "#D7CCC8"),   # light brown
     "coordination": ("🧠 Daily / Coordination",     "#F8BBD9"),   # lavender pink
+    "mental":       ("🧩 Mental / Brain Games",     "#B3E5FC"),   # light cyan
+    "dance":        ("💃 Dance",                    "#D1C4E9"),   # light deep purple
     "fullday":      ("📅 Full Day",                 "#EEEEEE"),   # light grey — original == exercises
 }
 
@@ -1212,12 +1214,21 @@ class ExerciseReminder:
 
         # ---- Mouse wheel scrolling ----
         def _on_mousewheel(event):
+            if not canvas.winfo_exists():
+                return
             delta = int(-1 * (event.delta / 120)) if event.delta else -1 if event.num == 5 else 1
             canvas.yview_scroll(delta, "units")
 
         canvas.bind_all("<MouseWheel>", _on_mousewheel)
         canvas.bind_all("<Button-4>", _on_mousewheel)   # Linux scroll up
         canvas.bind_all("<Button-5>", _on_mousewheel)   # Linux scroll down
+
+        def _cleanup_mousewheel_bindings(_event=None):
+            canvas.unbind_all("<MouseWheel>")
+            canvas.unbind_all("<Button-4>")
+            canvas.unbind_all("<Button-5>")
+
+        rec_window.bind("<Destroy>", _cleanup_mousewheel_bindings, add="+")
 
         # Bell + focus for reminders
         if is_timer_reminder:
